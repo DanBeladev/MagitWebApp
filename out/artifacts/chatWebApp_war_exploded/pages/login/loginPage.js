@@ -1,4 +1,3 @@
-/*
 $(function () {
     $("#s").append("<p>hey</p>");
     $("#loginForm").submit(function () {
@@ -27,4 +26,4 @@ $(function () {
         });
         return false;
     })
-})*/
+})

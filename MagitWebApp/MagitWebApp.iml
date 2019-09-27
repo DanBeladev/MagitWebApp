@@ -19,7 +19,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="ChatLogicEngine" />
+    <orderEntry type="module" module-name="GitEngine" />
     <orderEntry type="library" name="gson-2.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Tomcat 8.5.23" level="application_server_libraries" />
   </component>
