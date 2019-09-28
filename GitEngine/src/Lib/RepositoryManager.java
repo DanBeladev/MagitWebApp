@@ -1,17 +1,19 @@
 package Lib;
 
 import MagitExceptions.*;
-import puk.team.course.magit.ancestor.finder.AncestorFinder;
 import resources.generated.*;
-import sun.reflect.generics.visitor.Visitor;
 
 import javax.xml.bind.JAXBException;
 import java.io.*;
 import java.lang.reflect.InvocationTargetException;
-import java.nio.file.*;
-import java.rmi.Remote;
+import java.nio.file.FileAlreadyExistsException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.text.ParseException;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 
 public class RepositoryManager {
@@ -76,7 +78,7 @@ public class RepositoryManager {
 
     public void BonusInit(String name, String path, boolean isLoadedFromXML) throws IOException {
 
-        if (new File(path).mkdirs()) {
+       /* if (*/new File(path).mkdirs();/*) {*/
             new File(path + MAGIT_FOLDER).mkdirs();
             new File(path + OBJECTS_FOLDER).mkdirs();
             new File(path + BRANCHES_FOLDER).mkdirs();
@@ -93,10 +95,10 @@ public class RepositoryManager {
                 m_currentRepository.setActiveBranch(b);
                 m_currentRepository.getBranchesMap().put("master", m_currentRepository.getActiveBranch());
             }
-        } else {
+        }/* else {
             throw new FileAlreadyExistsException("The directory: " + path + " already exists");
-        }
-    }
+        }*/
+
 
     public void MakeCommit(String message, Commit anotherPrevCommit) throws IOException, ParseException, RepositoryDoesnotExistException, CommitException {
         IsCurrentRepositoryInitialize();
@@ -184,15 +186,17 @@ public class RepositoryManager {
         InputStream inputStream = new FileInputStream(path);
         m_MagitRepository = XMLChecker.deserializeFrom(inputStream);
         return XMLChecker.CheckXML(m_MagitRepository);
-
     }
-
+    public List<String> CheckXml(InputStream inputStream) throws JAXBException, InvocationTargetException, FileNotFoundException, XMLException, IllegalAccessException, NoSuchMethodException {
+        m_MagitRepository = XMLChecker.deserializeFrom(inputStream);
+        return XMLChecker.CheckXML(m_MagitRepository);
+    }
     public boolean IsRepositoryExist(String path) {
         File f = new File(path + MAGIT_FOLDER);
         return f.exists();
     }
 
-    private void changeMagitRepositoryToRepository(MagitRepository magitRepository) throws RepositoryAllreadyExistException, IOException, ParseException, BranchDoesNotExistException, BranchIsAllReadyOnWCException, CheckoutToRemoteBranchException, CommitException, OpenChangesException {
+    /*private void changeMagitRepositoryToRepository(MagitRepository magitRepository) throws RepositoryAllreadyExistException, IOException, ParseException, BranchDoesNotExistException, BranchIsAllReadyOnWCException, CheckoutToRemoteBranchException, CommitException, OpenChangesException {
         FileUtils.deleteDirectory(magitRepository.getLocation());
         BonusInit(magitRepository.getName(), magitRepository.getLocation(), true);
         if (magitRepository.getMagitRemoteReference() != null && magitRepository.getMagitRemoteReference().getName() != null) {
@@ -202,7 +206,17 @@ public class RepositoryManager {
 
         }
         LoadObjectsFolder(magitRepository);
+    }*/
+    private void changeMagitRepositoryToRepository(MagitRepository magitRepository, String LocationInServer) throws RepositoryAllreadyExistException, IOException, ParseException, BranchDoesNotExistException, BranchIsAllReadyOnWCException, CheckoutToRemoteBranchException, CommitException, OpenChangesException {
+        FileUtils.deleteDirectory(LocationInServer+"\\"+magitRepository.getName());
+        BonusInit(magitRepository.getName(), LocationInServer+"\\"+magitRepository.getName(), true);
+        if (magitRepository.getMagitRemoteReference() != null && magitRepository.getMagitRemoteReference().getName() != null) {
+            String rrLocation = magitRepository.getMagitRemoteReference().getLocation();
+            FileUtils.CreateTextFile(m_currentRepository.GetLocation() + MAGIT_FOLDER + "RRLocation.txt", rrLocation);
+            m_currentRepository.setRRLocation(rrLocation);
 
+        }
+        LoadObjectsFolder(magitRepository);
     }
 
     private void LoadBranches(MagitRepository magitRepository, Map<String, SHA1> commitIDToCommitSha1) throws IOException, BranchDoesNotExistException, ParseException, BranchIsAllReadyOnWCException, CheckoutToRemoteBranchException, CommitException, OpenChangesException {
@@ -328,9 +342,12 @@ public class RepositoryManager {
         return b;
     }
 
-    public void LoadXML() throws BranchIsAllReadyOnWCException, IOException, BranchDoesNotExistException, ParseException, RepositoryAllreadyExistException, CheckoutToRemoteBranchException, CommitException, OpenChangesException {
+   /* public void LoadXML() throws BranchIsAllReadyOnWCException, IOException, BranchDoesNotExistException, ParseException, RepositoryAllreadyExistException, CheckoutToRemoteBranchException, CommitException, OpenChangesException {
         changeMagitRepositoryToRepository(m_MagitRepository);
-    }
+    }*/
+   public void LoadXML(String location) throws BranchIsAllReadyOnWCException, IOException, BranchDoesNotExistException, ParseException, RepositoryAllreadyExistException, CheckoutToRemoteBranchException, CommitException, OpenChangesException {
+       changeMagitRepositoryToRepository(m_MagitRepository,location);
+   }
 
     public List<SHA1> getCurrentRepositoryAllCommitsSHA1() throws RepositoryDoesnotExistException {
         IsCurrentRepositoryInitialize();

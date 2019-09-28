@@ -9,6 +9,22 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>LoginServlet</servlet-name>
-        <url-pattern>/LoginServlet</url-pattern>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>CurrentUserServlet</servlet-name>
+        <servlet-class>servlets.CurrentUserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CurrentUserServlet</servlet-name>
+        <url-pattern>/userName</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>UploadNewRepositoryServlet</servlet-name>
+        <servlet-class>servlets.UploadNewRepositoryServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UploadNewRepositoryServlet</servlet-name>
+        <url-pattern>/upload</url-pattern>
     </servlet-mapping>
 </web-app>

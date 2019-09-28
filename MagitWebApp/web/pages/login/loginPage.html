@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>login</title>
-    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="/common/bootstrap.min.css">
+    <script type="text/javascript" src="/common/jquery-3.4.1.min.js"></script>
     <script src="loginPage.js"></script>
     <link rel="stylesheet" href="loginPage.css">
 </head>
@@ -14,14 +15,10 @@
     <h3>
         Enter user name:
     </h3>
-    <form id="loginForm" action="LoginServlet" method="get">
-        <input type="text" name="userName">
-        <input type="submit" value="log in!!">
-    </form>
+    <input type="text" id="userName" name="userName">
+    <button id="logInBtn">Log in!</button>
     <div id="s">
-
     </div>
-
 </div>
 </body>
 </html>

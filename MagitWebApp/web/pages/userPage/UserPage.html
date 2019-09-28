@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your page</title>
+    <link rel="stylesheet" href="/common/bootstrap.min.css">
+    <script type="text/javascript" src="/common/jquery-3.4.1.min.js"></script>
+    <script src="UserPage.js"></script>
+</head>
+<body>
+<div>
+    <h1 id="welcome">Welcome</h1>
+</div>
+<div>
+    <h3>Here is your repository:</h3>
+    <ol id="repos">
+    </ol>
+
+    <!--<button id="addFileBtn" type="button" class="btn btn-primary">add repository!</button>
+    <input id="file" type="file" name="file" accept=".xml" style="display: none ;" />-->
+    <form  id="uploadForm" enctype="multipart/form-data" method="POST">
+        <input type="file" name="file">
+        <input type="submit" value="Upload File">
+    </form>
+</div>
+</body>
+</html>

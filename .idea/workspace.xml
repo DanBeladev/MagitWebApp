@@ -7,146 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a14c5375-d147-41c4-b6bf-d40cd56cf20d" name="Default" comment="xml files">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/GitEngine.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/MagitWebApp.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ChatLogicEngine.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/chat.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/chatWebApp_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/chatWebApp_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatLogicEngine/GitEngine.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatLogicEngine/src/Lib/Blob.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatLogicEngine/src/Lib/Branch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatLogicEngine/src/Lib/BranchDetails.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatLogicEngine/src/Lib/Commit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatLogicEngine/src/Lib/CommitDetails.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatLogicEngine/src/Lib/FileDetails.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatLogicEngine/src/Lib/FileStatusCompareAncestor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatLogicEngine/src/Lib/FileType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatLogicEngine/src/Lib/FileUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatLogicEngine/src/Lib/Folder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatLogicEngine/src/Lib/MagitFile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatLogicEngine/src/Lib/MergeConfilct.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatLogicEngine/src/Lib/OurDate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatLogicEngine/src/Lib/RemoteBranch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatLogicEngine/src/Lib/RemoteTrackingBranch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatLogicEngine/src/Lib/Repository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatLogicEngine/src/Lib/RepositoryManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatLogicEngine/src/Lib/SHA1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatLogicEngine/src/Lib/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatLogicEngine/src/Lib/UserManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatLogicEngine/src/Lib/XMLChecker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatLogicEngine/src/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatLogicEngine/src/MagitExceptions/BranchDoesNotExistException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatLogicEngine/src/MagitExceptions/BranchFileDoesNotExistInFolderException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatLogicEngine/src/MagitExceptions/BranchIsAllReadyOnWCException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatLogicEngine/src/MagitExceptions/BranchNameIsAllreadyExistException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatLogicEngine/src/MagitExceptions/CheckoutToRemoteBranchException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatLogicEngine/src/MagitExceptions/CommitException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatLogicEngine/src/MagitExceptions/FFException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatLogicEngine/src/MagitExceptions/HeadBranchDeletedExcption.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatLogicEngine/src/MagitExceptions/OpenChangesException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatLogicEngine/src/MagitExceptions/ReadInputException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatLogicEngine/src/MagitExceptions/RemoteTrackingBranchException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatLogicEngine/src/MagitExceptions/RepositoryAllreadyExistException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatLogicEngine/src/MagitExceptions/RepositoryDoesnotExistException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatLogicEngine/src/MagitExceptions/RepositoryDoesntTrackAfterOtherRepositoryException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatLogicEngine/src/MagitExceptions/RepositorySameToCurrentRepositoryException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatLogicEngine/src/MagitExceptions/XMLException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatLogicEngine/src/resources/generated/Item.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatLogicEngine/src/resources/generated/MagitBlob.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatLogicEngine/src/resources/generated/MagitBlobs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatLogicEngine/src/resources/generated/MagitBranches.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatLogicEngine/src/resources/generated/MagitCommits.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatLogicEngine/src/resources/generated/MagitFolders.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatLogicEngine/src/resources/generated/MagitRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatLogicEngine/src/resources/generated/MagitSingleBranch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatLogicEngine/src/resources/generated/MagitSingleCommit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatLogicEngine/src/resources/generated/MagitSingleFolder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatLogicEngine/src/resources/generated/ObjectFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatLogicEngine/src/resources/generated/PrecedingCommits.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatLogicEngine/src/resources/generated/RootFolder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatLogicEngine/src/resources/schema/MAGit.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatWebApp/MagitWebApp.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatWebApp/src/constants/Constants.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatWebApp/src/servlets/LoginServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatWebApp/src/utils/ServletUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatWebApp/src/utils/SessionUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatWebApp/web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatWebApp/web/common/Images/MagitLogo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatWebApp/web/common/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatWebApp/web/common/jquery-3.4.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatWebApp/web/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatWebApp/web/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatWebApp/web/indexStyle.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatWebApp/web/pages/login/jquery-3.4.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatWebApp/web/pages/login/loginPage.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatWebApp/web/pages/login/loginPage.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatWebApp/web/pages/login/loginPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/chatWebApp_war_exploded/WEB-INF/classes/servlets/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/chatWebApp_war_exploded/WEB-INF/classes/servlets/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/chatWebApp_war_exploded/pages/login/loginPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/chatWebApp_war_exploded/pages/login/loginPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/chatWebApp_war_exploded/pages/login/loginPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/chatWebApp_war_exploded/pages/login/loginPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/Lib/Blob.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/Lib/Branch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/Lib/BranchDetails.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/Lib/Commit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/Lib/CommitDetails.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/Lib/FileDetails.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/Lib/FileStatusCompareAncestor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/Lib/FileType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/Lib/FileUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/Lib/Folder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/Lib/MagitFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/Lib/MergeConfilct.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/Lib/OurDate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/Lib/RemoteBranch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/Lib/RemoteTrackingBranch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/Lib/Repository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/Lib/RepositoryManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/Lib/SHA1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/Lib/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/Lib/UserManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/Lib/XMLChecker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/MagitExceptions/BranchDoesNotExistException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/MagitExceptions/BranchFileDoesNotExistInFolderException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/MagitExceptions/BranchIsAllReadyOnWCException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/MagitExceptions/BranchNameIsAllreadyExistException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/MagitExceptions/CheckoutToRemoteBranchException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/MagitExceptions/CommitException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/MagitExceptions/FFException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/MagitExceptions/HeadBranchDeletedExcption.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/MagitExceptions/OpenChangesException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/MagitExceptions/ReadInputException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/MagitExceptions/RemoteTrackingBranchException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/MagitExceptions/RepositoryAllreadyExistException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/MagitExceptions/RepositoryDoesnotExistException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/MagitExceptions/RepositoryDoesntTrackAfterOtherRepositoryException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/MagitExceptions/RepositorySameToCurrentRepositoryException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/MagitExceptions/XMLException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/resources/generated/Item.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/resources/generated/MagitBlob.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/resources/generated/MagitBlobs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/resources/generated/MagitBranches.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/resources/generated/MagitCommits.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/resources/generated/MagitFolders.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/resources/generated/MagitRepository$MagitRemoteReference.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/resources/generated/MagitRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/resources/generated/MagitSingleBranch$PointedCommit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/resources/generated/MagitSingleBranch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/resources/generated/MagitSingleCommit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/resources/generated/MagitSingleFolder$Items.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/resources/generated/MagitSingleFolder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/resources/generated/ObjectFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/resources/generated/PrecedingCommits$PrecedingCommit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/resources/generated/PrecedingCommits.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/resources/generated/RootFolder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatLogicEngine/resources/schema/MAGit.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatWebApp/constants/Constants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatWebApp/servlets/LoginServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatWebApp/utils/ServletUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatWebApp/utils/SessionUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitEngine/GitEngine.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GitEngine/GitEngine.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagitWebApp/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/MagitWebApp/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagitWebApp/web/indexStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/MagitWebApp/web/indexStyle.css" afterDir="false" />
     </list>
     <ignored path="Online Chat V2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -207,7 +71,26 @@
     <favorites_list name="Online Chat V2" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MagitWebApp/web/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="113" selection-start-line="12" selection-start-column="113" selection-end-line="12" selection-end-column="113" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MagitWebApp/web/indexStyle.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -261,6 +144,8 @@
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/ChatLogicEngine/gitignore" />
         <option value="$PROJECT_DIR$/chatWebApp/src/utils/ServletUtils.java" />
+        <option value="$PROJECT_DIR$/MagitWebApp/web/index.html" />
+        <option value="$PROJECT_DIR$/MagitWebApp/web/indexStyle.css" />
       </list>
     </option>
   </component>
@@ -279,10 +164,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="55" />
-    <option name="y" value="-10" />
-    <option name="width" value="1870" />
-    <option name="height" value="1100" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="785" />
+    <option name="height" value="745" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -296,11 +181,12 @@
           <expand>
             <path>
               <item name="MagitForWebClient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GitEngine" type="462c0819:PsiDirectoryNode" />
+              <item name="MagitWebApp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MagitForWebClient" type="b2602c69:ProjectViewProjectNode" />
               <item name="MagitWebApp" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -321,14 +207,14 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/MagitWebApp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Online Chat V2" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -355,7 +241,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Online Chat V2">
+  <component name="RunManager" selected="Tomcat Server.Magit">
     <configuration default="true" type="BatchConfigurationType" factoryName="Batch">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -583,8 +469,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Online Chat V2" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.23" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
+    <configuration name="Magit" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.23" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="chatWebApp:war exploded">
@@ -676,7 +561,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.TestDependenciesWork" />
-      <item itemvalue="Tomcat Server.Online Chat V2" />
+      <item itemvalue="Tomcat Server.Magit" />
     </list>
     <recent_temporary>
       <list>
@@ -731,7 +616,7 @@
       <workItem from="1569530690982" duration="5057000" />
       <workItem from="1569574890204" duration="67000" />
       <workItem from="1569576012994" duration="319000" />
-      <workItem from="1569576632655" duration="237000" />
+      <workItem from="1569576632655" duration="4992000" />
     </task>
     <task id="LOCAL-00001" summary="reverts">
       <created>1569530821306</created>
@@ -751,13 +636,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99306000" />
+    <option name="totallyTimeSpent" value="104061000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" id="Project" order="0" visible="true" weight="0.27046978" />
-      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Project" order="0" visible="true" weight="0.35436243" />
+      <window_info id="Structure" order="1" weight="0.24966443" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Capture Tool" order="4" />
@@ -766,7 +652,7 @@
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32917964" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4911602" weight="0.3045326" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4911602" visible="true" weight="0.5084986" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38243628" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -776,7 +662,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5088398" side_tool="true" weight="0.3894081" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3286119" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.3711048" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.5651558" />
       <window_info anchor="bottom" id="Tail" order="13" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="15" />
@@ -826,7 +712,13 @@
       <map>
         <entry key="Branch">
           <value>
-            <list />
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
         <entry key="User">
@@ -895,8 +787,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/external/apache-tomcat-8.5.23/lib/servlet-api.jar!/javax/servlet/ServletConfig.class" />
-    <entry file="file://$PROJECT_DIR$/chatWebApp/web/common/context-path-helper.js" />
     <entry file="jar://C:/projects/external/apache-tomcat-8.5.23/lib/servlet-api.jar!/javax/servlet/GenericServlet.class" />
     <entry file="jar://C:/projects/external/apache-tomcat-8.5.23/lib/servlet-api.jar!/javax/servlet/http/HttpSession.class" />
     <entry file="file://$PROJECT_DIR$/chatWebApp/web/pages/loginerror/login_attempt_after_error.jsp" />
@@ -962,6 +852,20 @@
     <entry file="file://$PROJECT_DIR$/GitEngine/GitEngine.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/MagitWebApp/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="113" selection-start-line="12" selection-start-column="113" selection-end-line="12" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MagitWebApp/web/indexStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -980,7 +884,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1023,12 +926,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>MagitWebApp</last-edited>
+          <last-edited>GitEngine</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

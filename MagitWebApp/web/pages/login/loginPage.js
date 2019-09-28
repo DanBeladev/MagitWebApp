@@ -1,29 +1,23 @@
 $(function () {
-    $("#s").append("<p>hey</p>");
-    $("#loginForm").submit(function () {
-        var name=this[0].value;
-
-        var formData=new FormData();
-        formData.append("userName",name);
+    var userName=$("#userName");
+    $("#logInBtn").click(function () {
         $.ajax({
-            method:'GET',
-            data: formData,
-            url: this.action,
-            timeout:2000,
-            error: function(){
-                console.error("Failed to submit");
-                $("#s").append("Failed to get result from server");
+            data:userName,
+            url: '/Login',
+            success:function () {
+                $("#s").text("you logged in");
+                $("#s").css("color","black");
+                location.href='/pages/userPage/UserPage.html';
             },
-            success: function(r) {
-                if(r!=null) {
-                    $("#s").append("<p>r</p>");
+            error: function (xhr, status, error) {
+                if(xhr.status===403){
+                    $("#s").text("name already exist!");
+                    $("#s").css("color","red")
                 }
                 else{
-                    $("#s").append("<p>good!</p>");
+                    $("#s").text("failed to get result from server")
                 }
             }
-
         });
-        return false;
     })
 })
